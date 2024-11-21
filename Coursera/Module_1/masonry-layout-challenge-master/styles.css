@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: center; /* Căn giữa các cột theo chiều ngang */
+    gap: 5px; /* Khoảng cách giữa các cột */
+    padding: 20px;
+    background-color: red;
+}
+
+/* Mỗi cột */
+.column {
+    display: flex; /* Sử dụng Flexbox */
+    flex-direction: column; /* Xếp các khối theo chiều dọc */
+    gap: 5px; /* Khoảng cách giữa các khối */
+    width: 100px; /* Chiều rộng của cột */
+}
+
+/* Mỗi khối */
+.block {
+    width: 100%;
+    height: var(height, 100px); 
+    background-color: #3d1e37; /* Màu nền */
+}
+
+/* Hiệu ứng hover */
+.block:hover {
+    background-color: #1b8d4b; /* Đổi màu khi rê chuột */
+    transition: all 0.3s ease;
+}

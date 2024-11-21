@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+}
+
+/* ****************************** 
+ * Header
+ * *****************************/
+
+header {
+    padding: 5px 20px;
+    background-image: url("assets/bg-header-pattern.png");
+    z-index: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin-left: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: color 0.3s;
+    margin-right: 50px;
+}
+
+.menu a:hover {
+    color: #9fdde6;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 13px;
+    transition: color 0.3s;
+    margin-right: 30px;
+}
+
+.about a:hover {
+    color: #9fdde6;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section a {
+    margin-left: 30px;
+}
+
+.donate-btn {
+    text-decoration: none;
+    background-color: #de3831;
+    color: white;
+    padding: 8px 8px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    justify-content: right;
+}
+
+.donate-btn:hover {
+    background-color: #b12521;
+}
+
+.about-btn {
+    text-decoration: none;
+    background-color: #D55C19;
+    color: white;
+    padding: 8px 8px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* ****************************** 
+ * Hero section
+ * *****************************/
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* ****************************** 
+ * Mission
+ * *****************************/
+
+.mission {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f6f5f2;
+}
+
+.mission h2 {
+    margin: 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.work-areas {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.work-item img {
+    transform: scale(0.7);
+    border-radius: 50%;    
+    object-fit: cover;
+}
+
+.work-item h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.work-item:nth-child(1) h3 {
+    color: #b71234;           
+}
+  
+.work-item:nth-child(2) h3 {
+    color: #D55C19;           
+}
+  
+.work-item:nth-child(3) h3 {
+    color: #00675A;         
+}
+
+.work-item:nth-child(4) h3 {
+    color: #53284f;         
+}
+
+.work-item:nth-child(5) h3 {
+    color: #55601c;         
+}
+
+.work-item:nth-child(6) h3 {
+    color: #4fd0bb;         
+}
+
+/* ****************************** 
+ * Footer
+ * *****************************/
+
+.footer {
+    display: flex;
+    padding: 20px;
+    background: black;
+    flex-direction: column;
+}
+
+.footer-top {
+    order: 1;
+    border-bottom: 1px solid #333;
+    text-align: right;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #D55C19;
+    margin-bottom: 15px;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    order: 2;
+    margin: 40px;
+}
+  
+.footer-center a {
+    text-decoration: none;
+    padding: 5px 0;
+    color: white;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    background-color: white;
+    order: 3;
+}
+
+.information {
+    display: flex;
+}
+
+.legal-info {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+.legal-links {
+    margin-top: 10px;
+}
+
+.legal-links span {
+    margin: 0 10px;
+    color: #555;
+}

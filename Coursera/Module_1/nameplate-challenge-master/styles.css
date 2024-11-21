@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d8f3f8; /* Màu nền xanh nhạt */
+}
+
+nav {
+    margin-bottom: 100px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1d1d; /* Màu đen */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+#side-menu {
+    display: flex; /* Kích hoạt Flexbox */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    padding: 10px 20px; /* Tạo khoảng cách trong nav */
+}
+
+#side-menu .logo {
+    margin-right: auto; /* Đẩy menu và nút Contact sang bên phải */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#side-menu .contact-btn {
+    margin-left: 20px; /* Đảm bảo nút Contact không dính sát menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #9fdde6; /* Màu xanh sáng khi hover */
+}
+
+.contact-btn {
+    text-decoration: none;
+    background-color: #9fdde6; /* Nút xanh nhạt */
+    color: #1d1d1d;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #74c1d0; /* Nút đậm hơn khi hover */
+}
